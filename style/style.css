@@ -5,13 +5,19 @@
     box-sizing: border-box;
 }
 
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 body{
     background-color: aliceblue;
     font-family: 'Overpass', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
-.container{
+.box{
     background-color: white;
     width: 800px;
     margin: 0 auto;
@@ -29,5 +35,20 @@ h1{
 
 .didascalia{
     padding: 10px 0;
+    padding-bottom: 30px;
     font-size: .8rem;
+}
+
+div{
+    width: 32%;
+    height: 200px;
+    border: 2px solid red;
+}
+
+.r1{
+    float: left;
+}
+
+.colorato{
+    background-color: aqua;
 }
