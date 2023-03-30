@@ -23,7 +23,7 @@ body{
     margin: 0 auto;
 }
 
-section{
+.centrato{
     text-align: center;
 }
 
@@ -40,15 +40,42 @@ h1{
 }
 
 div{
-    width: 32%;
-    height: 200px;
-    border: 2px solid red;
+    width: 30%;
+    margin: 10px;
+    background-color: black;
 }
 
-.r1{
+.cards{
     float: left;
 }
 
 .colorato{
     background-color: aqua;
+}
+
+img{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+h2{
+    font-size: 1rem;
+    color: white;
+    margin-top: 10px
+}
+
+span{
+    margin: 5px 0;
+}
+
+.work{
+    color: white;
+    font-size: .8rem;
+}
+
+.email{
+    color: rgb(56, 150, 221);
+    font-size: .7rem;
 }
