@@ -6,6 +6,28 @@
 }
 
 body{
+    background-color: aliceblue;
     font-family: 'Overpass', sans-serif;
     font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;
+}
+
+section{
+    text-align: center;
+}
+
+h1{
+    color: rgb(206, 70, 127);
+    padding: 30px;
+    font-size: 2rem;
+}
+
+.didascalia{
+    padding: 10px 0;
+    font-size: .8rem;
 }
