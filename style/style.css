@@ -12,13 +12,11 @@
 }
 
 body{
-    background-color: aliceblue;
     font-family: 'Overpass', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
 .box{
-    background-color: white;
     width: 800px;
     margin: 0 auto;
 }
@@ -51,7 +49,7 @@ div{
 }
 
 .colorato{
-    background-color: aqua;
+    background-color: white;
 }
 
 img{
